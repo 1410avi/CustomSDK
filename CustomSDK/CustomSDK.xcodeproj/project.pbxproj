@@ -16,6 +16,7 @@
 		E1ACB22A2AF8FB700067F15D /* CustomSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E1ACB2292AF8FB700067F15D /* CustomSDK.podspec */; };
 		E1ACB22C2AF901340067F15D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E1ACB22B2AF901340067F15D /* LICENSE */; };
 		E1ACB24F2AF908150067F15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACB24E2AF908150067F15D /* XCTest.framework */; platformFilter = ios; };
+		E1ACB2502AF96ACE0067F15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACB24E2AF908150067F15D /* XCTest.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ACB2502AF96ACE0067F15D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
