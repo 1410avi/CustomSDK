@@ -2,35 +2,35 @@
 //  CustomSDKTests.swift
 //  CustomSDKTests
 //
-//  Created by Avinash Soni on 06/11/23.
+//  Created by Avinash Soni on 07/11/23.
 //
 
 import XCTest
 @testable import CustomSDK
 
 final class CustomSDKTests: XCTestCase {
-    
 
-    func testSDKInteraction() {
-            // Step 2: Test interaction with client app
+    override func setUpWithError() throws {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
 
-            // Simulate receiving client JSON object
-            let clientJSONObject: [String: Any] = ["key1": "value1", "key2": "value2"]
+    override func tearDownWithError() throws {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
 
-            // Start the SDK
-            CustomSDK.shared.start(clientJSONObject: clientJSONObject)
+    func testExample() throws {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Any test you write for XCTest can be annotated as throws and async.
+        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
+        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    }
 
-            // Simulate success
-        let successData = ["successKey": "successValue"]
-            CustomSDK.shared.onSuccess?(successData)
-
-            // Simulate failure
-        let failureData = ["failureKey": "failureValue"]
-            CustomSDK.shared.onFailed?(failureData)
-
-            // Simulate error
-        let cancellationData = ["cancelKey": "cancelValue"]
-            CustomSDK.shared.onCancel?(cancellationData)
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+        measure {
+            // Put the code you want to measure the time of here.
         }
+    }
 
 }
