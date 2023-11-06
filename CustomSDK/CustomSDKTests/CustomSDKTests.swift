@@ -9,6 +9,7 @@ import XCTest
 @testable import CustomSDK
 
 final class CustomSDKTests: XCTestCase {
+    
 
     func testSDKInteraction() {
             // Step 2: Test interaction with client app
