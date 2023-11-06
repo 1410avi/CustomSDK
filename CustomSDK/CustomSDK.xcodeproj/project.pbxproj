@@ -14,6 +14,7 @@
 		E1ACB2262AF8E2170067F15D /* CustomSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACB2252AF8E2170067F15D /* CustomSDK.swift */; };
 		E1ACB2282AF8E7130067F15D /* CustomWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACB2272AF8E7130067F15D /* CustomWebViewController.swift */; };
 		E1ACB22A2AF8FB700067F15D /* CustomSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E1ACB2292AF8FB700067F15D /* CustomSDK.podspec */; };
+		E1ACB22C2AF901340067F15D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E1ACB22B2AF901340067F15D /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		E1ACB2252AF8E2170067F15D /* CustomSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSDK.swift; sourceTree = "<group>"; };
 		E1ACB2272AF8E7130067F15D /* CustomWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebViewController.swift; sourceTree = "<group>"; };
 		E1ACB2292AF8FB700067F15D /* CustomSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CustomSDK.podspec; sourceTree = "<group>"; };
+		E1ACB22B2AF901340067F15D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		E1ACB2012AF8E1310067F15D = {
 			isa = PBXGroup;
 			children = (
+				E1ACB22B2AF901340067F15D /* LICENSE */,
 				E1ACB2292AF8FB700067F15D /* CustomSDK.podspec */,
 				E1ACB20D2AF8E1310067F15D /* CustomSDK */,
 				E1ACB2192AF8E1310067F15D /* CustomSDKTests */,
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1ACB22C2AF901340067F15D /* LICENSE in Resources */,
 				E1ACB22A2AF8FB700067F15D /* CustomSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
